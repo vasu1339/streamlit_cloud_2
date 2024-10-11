@@ -15,7 +15,7 @@ st.set_page_config(layout="centered")
 @st.cache_data
 def load_pat():
     if "CLARIFAI_PAT" not in st.secrets:
-        st.error("You need to set the CLARIFAI_PAT in the secrets.")
+        st.error("d608fc52932c4b5db4da6e464fb6a921")
         st.stop()
     return st.secrets.CLARIFAI_PAT
 
